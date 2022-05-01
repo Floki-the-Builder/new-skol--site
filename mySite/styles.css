@@ -1,0 +1,21 @@
+
+body{
+    margin: 0;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(209, 156, 104);
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 2px white;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+.container {
+    background-color: sandybrown;
+
+}
