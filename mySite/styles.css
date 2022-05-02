@@ -1,21 +1,52 @@
-
+/* Global */
 body{
+    
     margin: 0;
-    background-color: bisque;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(104, 104, 103);
+    font-family: 'Lato', sans-serif;
+    
 }
 
+/* header */
 header {
-    background-color: rgb(209, 156, 104);
+    /* copy image address */
+    background-image: url(https://external-preview.redd.it/g9pTl0_-Gr7mseWzujFB8u1f150wqCPvsKGR13OB9OI.jpg?auto=webp&s=22cf7a28c70abfdc5d293f30f59cbcb9ee74ded2);  
+    height: 42vh;
+    color: rgb(24, 224, 174);
+    /* position of img */
+    background-position: bottom right;
+    background-size: 100%;
     text-transform: capitalize;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     text-shadow: 1px 2px white;
     letter-spacing: 10px;
     word-spacing: 10px;
 }
 
-.container {
-    background-color: sandybrown;
 
+nav {
+    background-color: white;
+    padding: 10px;
 }
+
+nav a{
+    padding: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    background-color: white;
+    padding: 10px;
+}
+
+footer a{
+    padding: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+/* utilities = container */
+ 
+
