@@ -2,7 +2,7 @@
 body{
     
     margin: 0;
-    background-color: rgb(104, 104, 103);
+    background-color: rgb(71, 71, 71);
     font-family: 'Lato', sans-serif;
     
 }
@@ -17,13 +17,24 @@ header {
     background-position: bottom right;
     background-size: 100%;
     text-transform: capitalize;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     text-shadow: 1px 2px white;
     letter-spacing: 10px;
     word-spacing: 10px;
+    
 }
 
+/* social media */
+header h3{
+   display: inline;
+   color: white;
+}
+
+/* transparemt header background */
+.name {
+    background-color: rgba(39, 32, 32, 0.74);
+}
 
 nav {
     background-color: white;
@@ -49,4 +60,51 @@ footer a{
 
 /* utilities = container */
  
+main h1{
+    color: white;
+}
 
+main  {
+    margin: 20px;
+}
+
+div.services{
+    background-color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 10px;
+   
+}
+
+div.services .icon {
+    color: rgb(15, 119, 109);
+    background-color: rgb(130, 202, 195);
+    width: 100%;
+    
+
+}
+
+/* projectes */
+
+
+ul li, ol li{
+    border-left: 5px solid rgb(54, 53, 53);
+    padding: 10px;
+    background-color: rgb(72, 116, 113);
+    margin: 10px;
+}
+
+ul li:hover ,ol li:hover{
+    
+    background-color: cadetblue;
+}
+
+h5{
+    font-size: 25px;
+    color: white;
+}
+
+/* contact */
+.contact {
+    color:white
+}
